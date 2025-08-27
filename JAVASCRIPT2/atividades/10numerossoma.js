@@ -1,1 +1,11 @@
-let prompt=({n1, n2, n3, n4, n5, n6, n7, n8, n9, n10})
+var numero 
+var soma = 0
+var contador = 1
+
+
+while (contador <=10 ) {
+    numero= Number(prompt(`Qual o número?`))
+    soma+=numero 
+    alert(`A soma dos números é: ${soma}`) 
+    contador++
+}
