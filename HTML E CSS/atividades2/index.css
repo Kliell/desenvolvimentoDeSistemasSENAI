@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header,
+footer {
+    width: 100%;
+    background-color: rgb(190, 10, 109);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    background-color: rgb(245, 130, 216);
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+.Bolos{
+    width: 400px;
+}

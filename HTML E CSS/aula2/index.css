@@ -22,6 +22,7 @@ footer {
 
 h2 {
     margin: 0px 20px;
+    text-align: center;
 }
 
 main {
@@ -37,3 +38,19 @@ main {
     margin: 20px 0px;
     box-shadow: 6px 6px rgb(255, 145, 0);
 }
+
+div{
+    margin: 20px 0px;
+}
+
+.LinksNotícia{
+    margin: 20px;
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    color:white;
+    padding:10px;
+    box-shadow: 6px 6px rgb(255, 0, 221, 0.795);
+}
+
+
+
