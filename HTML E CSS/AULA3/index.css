@@ -18,7 +18,14 @@ body {
     /* flex direction - direção dos itens */
     /* row - linha / column - coluna */
     flex-direction: row;
+    /* justify (justificar) - x */
+    /* start - esquerda */
+    /* end - direita */
     justify-content: space-around;
+    /* align (alinhar) - y */
+    align-items: center;
+    /* wrap - ajustar (nowrap amassa, wrap organiza) */
+    flex-wrap: wrap;
 }
 
 .caixa {
