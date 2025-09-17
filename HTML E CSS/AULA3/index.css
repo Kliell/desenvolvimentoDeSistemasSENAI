@@ -1,0 +1,29 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: red;
+}
+
+.pai {
+    width: 800px;
+    height: 400px;
+    background-color: brown;
+    /* display - modo de mostrar na tela */
+    /* flex - flexível */
+    display: flex; 
+    /* flex direction - direção dos itens */
+    /* row - linha / column - coluna */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+}
