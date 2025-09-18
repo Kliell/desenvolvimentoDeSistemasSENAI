@@ -1,0 +1,63 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(185, 185, 185);
+}
+header {
+    width: 100%;
+    padding: 10px 0px;
+    background-color:rgb(185, 185, 185);
+    display:flex;
+    justify-content: end;
+}
+nav{
+    display:flex;
+    gap:15px;
+    margin: 0px 24px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#banner, #artigos{
+    width: 100%;
+    display: flex;
+}
+#bannerEsquerdo, #agenda{
+    width: 30%;
+}
+#bannerDireito, #servicos{
+    width: 70%;
+}
+#artigos h4{
+    color:rgb(185, 185, 185);
+    padding: 10px 0px;
+    background-color: black;
+}
+#artigos p,#artigos h5{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: black;
+    color:rgb(185, 185, 185);
+}
+#limitador{
+    width: 100%;
+}
+#limitador2{
+    width: 80%;
+}
+.caixaa{
+    width: 85%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding:10px;
+}
