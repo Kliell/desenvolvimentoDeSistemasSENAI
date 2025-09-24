@@ -42,8 +42,8 @@ footer {
     padding: 20px 0px;
     background-color: var(--corPrimaria);
     color: var(--textosHeader);
-    position:absolute; 
-    bottom:0%;
+    /* position:absolute;  */
+    /* bottom:0%; */
 }
 main{
     display: flex;

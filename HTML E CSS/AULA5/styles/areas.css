@@ -22,3 +22,8 @@
 #mecanica {
     background-image: url(../images/redimencionar-730-500-32_1.jpg);
 }
+
+footer{
+    position:absolute; 
+    bottom:0%;
+}
