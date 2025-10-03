@@ -1,0 +1,29 @@
+.imagemArea {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.areaEspecifica {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+#programacao {
+    background-image: url(../images/images.png);
+}
+
+#mecanica {
+    background-image: url(../images/redimencionar-730-500-32_1.jpg);
+}
+
+footer{
+    position:absolute; 
+    bottom:0%;
+}
