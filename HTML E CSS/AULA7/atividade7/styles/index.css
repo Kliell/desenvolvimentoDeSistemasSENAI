@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin: 0 auto;
+    width: 600px;
+    border: none;
+}
+
+caption {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #ffffff;
+    /* margin-bottom: 5px; */
+    background-color: #0D5188;
+}
+
+caption span {
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+th, td {
+    padding: 2px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+th {
+    background-color: #6CC5E3;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    background-color: #C7E7F3;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    background-color: #C7E7F3;
+}
+.caixa{
+    background-color: silver;
+}
+.cidade{
+    color: #0D5188;
+}
