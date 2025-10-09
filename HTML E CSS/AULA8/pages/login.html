@@ -4,21 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../styles/all.css">
-    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
 
 <body>
     <main>
-        <div id="bannerCadastro"></div>
-        <div id="formularioCadastro">
+        <div id="formularioLogin">
             <form method="get" action="#">
-                <div class="inputLabel">
-                    <label for="nome">Digite seu nome*:</label>
-                    <input required id="nome" placeholder="Ex: John Doe" type="text">
-                </div>
-
+                <p>LOGIN</p>
                 <div class="inputLabel">
                     <label for="email">Digite seu email*:</label>
                     <input required id="email" placeholder="Ex: johndoe@gmail.com" type="email">
@@ -27,17 +22,15 @@
                     <label for="senha">Digite sua senha*:</label>
                     <input required id="senha" placeholder="Ex: senhaSecreta" type="password">
                 </div>
-                <div class="inputLabel">
-                    <label for="idade">Digite sua idade*:</label>
-                    <input min="0" max="200" required id="idade" step="1" placeholder="Ex: 22" type="number">
-                </div>
 
                 <div class="inputLabel">
                     <!-- <input type="button" value="cadastrar"> -->
-                    <button type="submit">Cadastrar</button>
+                    <button type="submit">Entrar</button>
                     <button type="reset">Resetar</button>
                 </div>
-
+                <div>
+                    <a href="#">esqueceu sua senha?</a>
+                </div>
             </form>
         </div>
     </main>
