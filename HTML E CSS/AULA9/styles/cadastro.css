@@ -55,7 +55,7 @@ button{
     border-radius: 5px;
     transition: 0.5s;
 }
-button :hover{
+button:hover{
     transition: 0.5s;
     background-color: var(--branco);
     color: var(--corPrimaria);
